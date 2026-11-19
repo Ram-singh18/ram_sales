@@ -1,45 +1,63 @@
 # RAM SALES - Sales Data Analysis
 
-## Project overview
-This beginner-friendly data analytics project analyzes sales records using Python, Pandas and Matplotlib.
+## Project Overview
 
-## Dataset note
-`data/sales_data.csv` is a **synthetic sample/demo dataset** created for learning and demonstration. It is not real company or customer data.
+RAM SALES is a beginner-friendly Data Analytics project that analyzes sales records using Python, Pandas, NumPy and Matplotlib.
+
+## Dataset Note
+
+`data/sales_data.csv` is a synthetic sample/demo dataset created for learning and demonstration. It does not contain real company or customer data.
 
 ## Features
-- Cleans duplicate, missing and invalid records
-- Calculates total sales, units sold, orders and average order value
-- Identifies top-selling product and category
-- Creates product, monthly trend and category charts
-- Exports cleaned data and a summary report
+
+- Removes duplicate and missing records.
+- Cleans invalid sales records.
+- Calculates total sales and units sold.
+- Calculates total orders and average order value.
+- Identifies the top-selling product and category.
+- Generates monthly sales trend visualization.
+- Creates product-wise and category-wise sales charts.
+- Exports cleaned data and sales summary reports.
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
 
 ## Requirements
+
 - Python 3.10 or newer
 - Libraries listed in `requirements.txt`
 
-## Run on Windows
-Open Command Prompt in this folder, then run:
+## How to Run the Project
+
+### Step 1: Install Dependencies
 
 ```bash
 python -m pip install -r requirements.txt
+```
+
+### Step 2: Run the Project
+
+```bash
 python sales_analysis.py
 ```
 
-If `python` is not recognized, try:
+### Step 3: View Results
 
-```bash
-C:\Python314\python.exe -m pip install -r requirements.txt
-C:\Python314\python.exe sales_analysis.py
-```
+After successful execution, check the `outputs` folder for generated charts and reports.
 
-## Project structure
+## Project Structure
+
 ```text
 ram_sales/
 ├── data/
 │   ├── sales_data.csv
-│   └── sales_data_cleaned.csv   (created after running)
+│   └── sales_data_cleaned.csv
 ├── outputs/
-│   ├── sales_summary.csv        (created after running)
+│   ├── sales_summary.csv
 │   ├── sales_by_product.png
 │   ├── monthly_sales_trend.png
 │   └── sales_by_category.png
@@ -48,16 +66,10 @@ ram_sales/
 └── README.md
 ```
 
-## GitHub upload
-Create an empty public repository named `ram_sales`, then run these commands in Command Prompt opened inside this folder:
+## Author
 
-```bash
-git init
-git add .
-git commit -m "Add RAM SALES data analysis project"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/ram_sales.git
-git push -u origin main
-```
+Ram Singh Thakur
 
-Replace `YOUR-USERNAME` with your GitHub username.
+## GitHub Repository
+
+https://github.com/Ram-singh18/ram_sales
