@@ -68,7 +68,7 @@ ram_sales/
 
 ## Author
 
-Ram Singh Thakur
+Ramsingh Thakur
 
 ## GitHub Repository
 
